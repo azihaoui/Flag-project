@@ -1,0 +1,50 @@
+.flags-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 30px;
+}
+
+.flag-card {
+  background-color: hsl(209, 23%, 22%);
+  list-style: none;
+  transition: transform 300ms;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.flag-img-container {
+  height: 180px;
+}
+
+.flag-img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.flag-content {
+  padding: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flag-page {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flag-page button {
+  background-color: hsl(209, 23%, 22%);
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 2px;
+}
+
